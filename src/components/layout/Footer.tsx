@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           {/* Column 1: Company Info */}
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <img src="/public/img/home/logo.png" alt="Grãos Dom Inácio" className="h-12" />
+              <img src="/img/home/logo.png" alt="Grãos Dom Inácio" className="h-12" />
             </Link>
             <p className="text-gray-300 mb-4">
               Atuamos desde o campo até a fábrica, com qualidade e excelência em todos os processos.

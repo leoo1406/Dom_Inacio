@@ -29,7 +29,7 @@ const ProductsPage: React.FC = () => {
       id: 1,
       name: 'Milho',
       category: 'milho',
-      image: '/public/img/products/milho.jpg',
+      image: '/img/products/milho.jpg',
       description: 'Nosso milho é cultivado com as melhores práticas agrícolas, resultando em grãos de alta qualidade, versáteis e amplamente utilizados na alimentação humana, produção industrial e ração animal.\nGarantimos a qualidade do grão em todas as etapas, desde a colheita até a entrega.',
       uses: [
         'Rações para aves e suínos',
@@ -48,7 +48,7 @@ const ProductsPage: React.FC = () => {
       id: 2,
       name: 'Soja',
       category: 'soja',
-      image: '/public/img/products/soja.jpeg',
+      image: '/img/products/soja.jpeg',
       description: 'Nossa soja é produzida com tecnologia de ponta e rigoroso controle de qualidade, resultando em grãos ricos em proteínas e essenciais para a alimentação humana e animal.\nSelecionada com rigor para garantir os mais altos padrões nutricionais, a soja fornecida atende a diversas aplicações industriais e alimentícias.',
       uses: [
         'Produção de farelo para ração animal',
@@ -67,7 +67,7 @@ const ProductsPage: React.FC = () => {
       id: 3,
       name: 'Trigo',
       category: 'trigo',
-      image: '/public/img/products/trigo.jpeg',
+      image: '/img/products/trigo.jpeg',
       description: 'Base da alimentação mundial, o trigo é essencial para a produção de pães, massas e diversos alimentos.\nFornecemos trigo de alta qualidade, ideal para aplicações variadas, com diferentes tipos e classificações que atendem necessidades específicas da indústria de panificação, massas e rações animais.',
       uses: [
         'Panificação',
@@ -86,7 +86,7 @@ const ProductsPage: React.FC = () => {
       id: 4,
       name: 'Sorgo',
       category: 'sorgo',
-      image: '/public/img/products/sorgo.jpg',
+      image: '/img/products/sorgo.jpg',
       description: 'Grão sustentável e ideal para regiões com baixa disponibilidade de água, o sorgo é uma alternativa ecológica ao milho, oferecendo excelente perfil nutricional para a alimentação animal.\nUsado em rações e biocombustíveis, promove práticas agrícolas sustentáveis e apresenta grande resistência à seca durante o cultivo.',
       uses: [
         'Substituto do milho em rações',

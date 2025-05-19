@@ -19,7 +19,7 @@ const ServicesPage: React.FC = () => {
         'Transações documentadas e seguras',
         'Logística integrada de transporte'
       ],
-      image: '/public/img/services/intermediacao.jpg'
+      image: '/img/services/intermediacao.jpg'
     },
     {
       id: 'originacao',
@@ -32,7 +32,7 @@ const ServicesPage: React.FC = () => {
         'Armazenamento seguro e adequado',
         'Rastreabilidade completa dos grãos'
       ],
-      image: '/public/img/services/lavoura.jpg'
+      image: '/img/services/lavoura.jpg'
     },
     {
       id: 'fornecimento-granjas',
@@ -45,7 +45,7 @@ const ServicesPage: React.FC = () => {
         'Análise de qualidade e composição nutricional',
         'Consultorias especializadas para rações'
       ],
-      image: '/public/img/services/granja.png'
+      image: '/img/services/granja.png'
     },
     {
       id: 'fornecimento-industrias',
@@ -58,7 +58,7 @@ const ServicesPage: React.FC = () => {
         'Fornecimento contínuo para linhas de produção',
         'Contratos de longo prazo com preços competitivos'
       ],
-      image: '/public/img/services/industria.jpg'
+      image: '/img/services/industria.jpg'
     },
     {
       id: 'exportacao',
@@ -71,7 +71,7 @@ const ServicesPage: React.FC = () => {
         'Parceria com transportadoras e portos',
         'Certificações internacionais de qualidade'
       ],
-      image: '/public/img/services/expo.png'
+      image: '/img/services/expo.png'
     }
   ];
 

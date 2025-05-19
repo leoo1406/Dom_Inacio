@@ -77,6 +77,12 @@ const PartnersPage: React.FC = () => {
       name: "Petry Ovos",
       logo: "https://www.granjapetry.com.br/_nuxt/img/logo.cd6f10f.png",
       category: "Produtor",
+    },
+    {
+      id: 12,
+      name: "Santa Clara",
+      logo: "https://mobile.coopsantaclara.com.br/home/external/logo.png",
+      category: "Cooperativa",
     }
   ]
 

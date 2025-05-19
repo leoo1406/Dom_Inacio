@@ -7,28 +7,28 @@ const products = [
   {
     id: 1,
     name: 'Milho',
-    image: '/public/img/products/milho.jpg',
+    image: '/img/products/milho.jpg',
     description: 'Grãos de milho de alta qualidade para rações animais e indústria alimentícia.',
     link: '/produtos#milho'
   },
   {
     id: 2,
     name: 'Soja',
-    image: '/public/img/products/soja.jpeg',
+    image: '/img/products/soja.jpeg',
     description: 'Soja para processamento industrial, exportação e produção de alimentos.',
     link: '/produtos#soja'
   },
   {
     id: 3,
     name: 'Trigo',
-    image: '/public/img/products/trigo.jpeg',
+    image: '/img/products/trigo.jpeg',
     description: 'Trigo de alta qualidade para panificação e indústria alimentícia.',
     link: '/produtos#trigo'
   },
   {
     id: 4,
     name: 'Sorgo',
-    image: '/public/img/products/sorgo.jpg',
+    image: '/img/products/sorgo.jpg',
     description: 'Sorgo para ração animal e alternativa sustentável ao milho.',
     link: '/produtos#sorgo'
   }

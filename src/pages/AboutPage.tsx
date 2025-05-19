@@ -144,7 +144,7 @@ const AboutPage: React.FC = () => {
               transition={{ duration: 0.6 }}
             >
               <img
-                src="/public/img/about/machine.jpg"
+                src="/img/about/machine.jpg"
                 alt="Campo de grãos"
                 className="rounded-lg shadow-xl w-full h-auto object-cover aspect-[4/3]"
               />
