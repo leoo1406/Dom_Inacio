@@ -117,7 +117,7 @@ const SupportPage: React.FC = () => {
                 <h3 className="text-xl font-bold mb-4 text-secondary-900">WhatsApp</h3>
                 <p className="text-gray-700 mb-4">Atendimento rápido via mensagem</p>
                 <a
-                  href="https://wa.me/5500000000000"
+                  href="https://wa.me/5547992154382"
                   className="text-primary-600 font-medium hover:text-primary-700 transition-colors"
                 >
                   (47) 99215-4382
@@ -156,7 +156,6 @@ const SupportPage: React.FC = () => {
                 <h3 className="text-xl font-bold mb-4 text-secondary-900">E-mail</h3>
                 <p className="text-gray-700 mb-4">Resposta em até 24h úteis</p>
                 <a
-                  href="mailto:contato@graosdominacio.com.br"
                   className="text-primary-600 font-medium hover:text-primary-700 transition-colors"
                 >
                   contato@graosdominacio.com.br
@@ -179,7 +178,7 @@ const SupportPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
             <div className="md:col-span-9">
-              <div className="relative bg-white rounded-lg shadow-lg overflow-hidden p-6 h-[700px] w-full">
+            <div className="relative bg-white rounded-lg shadow-lg overflow-hidden p-6 h-[400px] md:h-[700px] w-full">
               <BrazilMap hoveredRegion={hoveredRegion} />
               </div>
             </div>

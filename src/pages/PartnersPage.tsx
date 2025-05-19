@@ -294,7 +294,7 @@ const PartnersPage: React.FC = () => {
                 contínuo para desenvolver uma relação comercial duradoura.
               </p>
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/5547992154382"
                 className="inline-flex items-center bg-white text-primary-600 px-8 py-4 rounded-md text-lg font-medium hover:bg-gray-100 transition-colors duration-300"
               >
                 Entre em contato

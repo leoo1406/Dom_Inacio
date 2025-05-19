@@ -81,7 +81,7 @@ const ServicesPage: React.FC = () => {
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="https://images.pexels.com/photos/3628600/pexels-photo-3628600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="/img/services/header-services.jpg"
             alt="Grain services background"
             className="object-cover w-full h-full"
           />
@@ -170,7 +170,7 @@ const ServicesPage: React.FC = () => {
               Entre em contato conosco para discutir como podemos atender às necessidades específicas do seu negócio.
             </p>
             <a 
-              href="https://wa.me/5500000000000" 
+              href="https://wa.me/5547992154382" 
               className="inline-flex items-center bg-white text-primary-600 px-8 py-4 rounded-md text-lg font-medium hover:bg-gray-100 transition-colors duration-300"
             >
               Fale com um especialista

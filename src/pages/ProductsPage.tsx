@@ -113,7 +113,7 @@ const ProductsPage: React.FC = () => {
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="https://images.pexels.com/photos/1368452/pexels-photo-1368452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="/img/services/header-products.jpg"
             alt="Agricultural products background"
             className="object-cover w-full h-full"
           />
@@ -273,7 +273,7 @@ const ProductsPage: React.FC = () => {
                 </p>
                 <div>
                   <a 
-                    href="https://wa.me/5500000000000" 
+                    href="https://wa.me/5547992154382" 
                     className="inline-flex items-center bg-primary-500 text-white px-6 py-3 rounded-md font-medium hover:bg-primary-600 transition-colors duration-300"
                   >
                     Solicitar informações

@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
           >
             <a 
-              href="https://wa.me/5500000000000" 
+              href="https://wa.me/5547992154382" 
               className="bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-md text-lg font-medium inline-flex items-center justify-center transition-colors duration-300"
             >
               Fale Agora via WhatsApp

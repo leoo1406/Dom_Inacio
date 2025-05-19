@@ -112,7 +112,6 @@ const ContactPage: React.FC = () => {
                     </h3>
                     <p className="text-gray-700 mt-1">
                       <a
-                        href="mailto:contato@graosdominacio.com.br"
                         className="hover:text-primary-600 transition-colors"
                       >
                         contato@graosdominacio.com.br
@@ -262,14 +261,13 @@ const ContactPage: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/5547992154382"
                 className="inline-flex items-center justify-center bg-white text-primary-600 px-8 py-4 rounded-md text-lg font-medium hover:bg-gray-100 transition-colors duration-300"
               >
                 <MessageCircle className="mr-2" size={20} />
                 Falar via WhatsApp
               </a>
               <a
-                href="mailto:contato@graosdominacio.com.br"
                 className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-md text-lg font-medium hover:bg-white/10 transition-colors duration-300"
               >
                 <Mail className="mr-2" size={20} />
