@@ -83,11 +83,11 @@ const ProductCarousel: React.FC = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
                       >
-                        <h3 className="text-4xl font-bold mb-4 text-white">{product.name}</h3>
-                        <p className="text-lg text-white/90 mb-6">{product.description}</p>
+                        <h3 className="text-4xl font-bold mb-4 text-white ml-8">{product.name}</h3>
+                        <p className="text-lg text-white/90 mb-6 ml-8">{product.description}</p>
                         <Link
                           to={product.link}
-                          className="inline-flex items-center bg-primary-500 text-white px-6 py-3 rounded-md hover:bg-primary-600 transition-colors duration-300"
+                          className="inline-flex items-center bg-primary-500 text-white px-6 py-3 rounded-md hover:bg-primary-600 transition-colors duration-300 ml-8"
                         >
                           Saiba mais
                           <ArrowRight className="ml-2 h-5 w-5" />
@@ -101,13 +101,13 @@ const ProductCarousel: React.FC = () => {
           </div>
 
           <button
-            className="absolute top-1/2 left-4 -translate-y-1/2 z-20 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white p-2 rounded-full transition-colors duration-300"
+            className="absolute top-1/2 left-1 -translate-y-1/2 z-20 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white p-2 rounded-full transition-colors duration-300"
             onClick={prevSlide}
           >
             <ChevronLeft size={24} />
           </button>
           <button
-            className="absolute top-1/2 right-4 -translate-y-1/2 z-20 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white p-2 rounded-full transition-colors duration-300"
+            className="absolute top-1/2 right-1 -translate-y-1/2 z-20 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white p-2 rounded-full transition-colors duration-300"
             onClick={nextSlide}
           >
             <ChevronRight size={24} />

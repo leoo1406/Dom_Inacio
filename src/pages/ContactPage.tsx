@@ -112,14 +112,7 @@ const ContactPage: React.FC = () => {
                       <a
                         className="hover:text-primary-600 transition-colors"
                       >
-                        contato@graosdominacio.com.br
-                      </a>
-                    </p>
-                    <p className="text-gray-700">
-                      <a
-                        className="hover:text-primary-600 transition-colors"
-                      >
-                        comercial@graosdiomincio.com.br
+                        dominacioatendimento@gmail.com
                       </a>
                     </p>
                   </div>

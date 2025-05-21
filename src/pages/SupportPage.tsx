@@ -29,7 +29,7 @@ const SupportPage: React.FC = () => {
     {
       question: "Como solicitar uma cotação de preços?",
       answer:
-        "Você pode solicitar uma cotação através do nosso WhatsApp, pelo e-mail comercial@graosdiomincio.com.br ou preenchendo o formulário disponível nesta página. Nossa equipe retornará em até 24 horas úteis.",
+        "Você pode solicitar uma cotação através do nosso WhatsApp, pelo e-mail dominacioatendimento@gmail.com ou preenchendo o formulário disponível nesta página. Nossa equipe retornará em até 24 horas úteis.",
       isOpen: false,
     },
     {
@@ -156,7 +156,7 @@ const SupportPage: React.FC = () => {
                 <a
                   className="text-primary-600 font-medium hover:text-primary-700 transition-colors"
                 >
-                  contato@graosdominacio.com.br
+                  dominacioatendimento@gmail.com
                 </a>
               </motion.div>
             </div>
@@ -222,7 +222,7 @@ const SupportPage: React.FC = () => {
           </div>
 
           <div className="max-w-3xl mx-auto">
-          <form action="https://formsubmit.co/baronio.leo@gmail.com" method="POST" className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <form action="https://formsubmit.co/dominacioatendimento@gmail.com" method="POST" className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_next" value="https://graosdominacio.com.br/obrigado" />
               <div className="md:col-span-2">
