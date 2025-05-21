@@ -113,7 +113,7 @@ const ProductsPage: React.FC = () => {
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="/img/services/header-products.jpg"
+            src="/img/products/header.jpg"
             alt="Agricultural products background"
             className="object-cover w-full h-full"
           />
@@ -280,7 +280,7 @@ const ProductsPage: React.FC = () => {
                   </a>
                 </div>
               </div>
-              <div className="bg-center bg-cover h-64 md:h-auto" style={{ backgroundImage: "url('/contato.jpg')" }}></div>
+              <div className="bg-center bg-cover h-64 md:h-auto" style={{ backgroundImage: "url('/img/products/infos.jpg')" }}></div>
             </div>
           </div>
         </div>

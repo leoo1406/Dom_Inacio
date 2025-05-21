@@ -8,17 +8,17 @@ const partners = [
   {
     id: 1,
     name: "Languiru",
-    logo: "https://www.languiru.com.br/wp-content/themes/languiru/imagens/logo.png",
+    logo: "/img/partners/languiru.png",
   },
   {
     id: 2,
     name: "Mercoaves",
-    logo: "https://logos-download.com/wp-content/uploads/2022/01/Mercoaves_Logo-3000x1144.png",
+    logo: "/img/partners/mercoaves.png",
   },
   {
     id: 3,
     name: "Carrer Alimentos",
-    logo: "https://transmaria.com.br/wp/wp-content/uploads/2020/08/Carrer.png",
+    logo: "/img/partners/carrer.png",
   },
   {
     id: 4,
@@ -27,7 +27,7 @@ const partners = [
   },
   { id: 5, 
     name: "Fortbrain",
-    logo: "https://api.fortbrain.com.br/upload/377ad2aa107054b956bc36b7250fe253.png",
+    logo: "/img/partners/fortbrain.png",
   },
 ]
 

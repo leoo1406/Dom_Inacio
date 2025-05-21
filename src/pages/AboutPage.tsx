@@ -79,7 +79,7 @@ const AboutPage: React.FC = () => {
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="/img/about/header.jpeg"
             alt="Grain background"
             className="object-cover w-full h-full"
           />

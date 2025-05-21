@@ -81,7 +81,7 @@ const ServicesPage: React.FC = () => {
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="/img/services/header-services.jpg"
+            src="/img/services/header.jpg"
             alt="Grain services background"
             className="object-cover w-full h-full"
           />

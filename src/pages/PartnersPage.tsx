@@ -15,55 +15,55 @@ const PartnersPage: React.FC = () => {
     {
       id: 1,
       name: "Fortbrain",
-      logo: "https://api.fortbrain.com.br/upload/377ad2aa107054b956bc36b7250fe253.png",
+      logo: "/img/partners/fortbrain.png",
       category: "Cooperativa",
     },
     {
       id: 2,
       name: "Brain Plus",
-      logo: "https://api.fortbrain.com.br/upload/08c1943ec06920a68f13f65baf60f7f8.png",
+      logo: "/img/partners/brainplus.png",
       category: "Indústria",
     },
     {
       id: 3,
       name: "Mimo's",
-      logo: "https://api.fortbrain.com.br/upload/750a16bae59faecd6820053f1bc68db6.png",
+      logo: "/img/partners/mimos.png",
       category: "Indústria",
     },
     {
       id: 4,
-      name: "Fãmil Premium",
-      logo: "https://api.fortbrain.com.br/upload/1b60be80e48f8dc7e44f009a853f2828.png",
+      name: "Famil Premium",
+      logo: "/img/partners/famil.png",
       category: "Granja",
     },
     {
       id: 5,
       name: "Luxbrain",
-      logo: "https://api.fortbrain.com.br/upload/ef9b3a43ed9c20816daa0decd512ceca.png",
+      logo: "/img/partners/luxbrain.png",
       category: "Exportadora",
     },
     {
       id: 6,
       name: "Arla Cooperativa LTDA",
-      logo: "https://cdn.awsli.com.br/1354/1354913/logo/20295971a7.png",
+      logo: "/img/partners/arla.webp",
       category: "Cooperativa",
     },
     {
       id: 7,
       name: "Carrer Alimentos",
-      logo: "https://transmaria.com.br/wp/wp-content/uploads/2020/08/Carrer.png",
+      logo: "/img/partners/carrer.png",
       category: "Indústria",
     },
     {
       id: 8,
       name: "Mercoaves",
-      logo: "https://logos-download.com/wp-content/uploads/2022/01/Mercoaves_Logo-3000x1144.png",
+      logo: "/img/partners/mercoaves.png",
       category: "Logística/Indústria",
     },
     {
       id: 9,
       name: "Languiru",
-      logo: "https://www.languiru.com.br/wp-content/themes/languiru/imagens/logo.png",
+      logo: "/img/partners/languiru.png",
       category: "Cooperativa Agroindustrial",
     },
     {
@@ -75,13 +75,13 @@ const PartnersPage: React.FC = () => {
     {
       id: 11,
       name: "Petry Ovos",
-      logo: "https://www.granjapetry.com.br/_nuxt/img/logo.cd6f10f.png",
+      logo: "/img/partners/petryovos.png",
       category: "Produtor",
     },
     {
       id: 12,
       name: "Santa Clara",
-      logo: "https://mobile.coopsantaclara.com.br/home/external/logo.png",
+      logo: "/img/partners/santaclara.png",
       category: "Cooperativa",
     }
   ]
@@ -302,7 +302,7 @@ const PartnersPage: React.FC = () => {
             </div>
             <div className="lg:justify-self-end">
               <img
-                src="/parceiro.jpg"
+                src="/img/partners/partners-footer.jpg"
                 alt="Parceria Grãos Dom Inácio"
                 className="rounded-lg shadow-lg w-full max-w-md"
               />
