@@ -109,7 +109,6 @@ const ProductsPage: React.FC = () => {
 
   return (
     <div className="pt-16">
-      {/* Hero section */}
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
@@ -133,7 +132,6 @@ const ProductsPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Products section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-12">
@@ -143,7 +141,6 @@ const ProductsPage: React.FC = () => {
             </p>
           </div>
 
-          {/* Filter tabs */}
           <div className="flex flex-wrap justify-center gap-2 mb-12">
             <button
               onClick={() => setActiveTab('all')}
@@ -197,7 +194,6 @@ const ProductsPage: React.FC = () => {
             </button>
           </div>
 
-          {/* Products grid */}
           <div className="space-y-24">
             {filteredProducts.map((product, index) => (
               <motion.div 
@@ -261,7 +257,6 @@ const ProductsPage: React.FC = () => {
         </div>
       </section>
 
-      {/* CTA section */}
       <section className="py-16 bg-primary-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">

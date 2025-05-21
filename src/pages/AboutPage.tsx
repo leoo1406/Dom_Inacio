@@ -75,7 +75,6 @@ const AboutPage: React.FC = () => {
 
   return (
     <div className="pt-16">
-      {/* Hero section */}
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img
@@ -102,7 +101,6 @@ const AboutPage: React.FC = () => {
         </div>
       </div>
 
-      {/* History section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -153,7 +151,6 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Missão, Visão e Valores */}
       <section className="py-24 bg-gray-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
@@ -165,7 +162,6 @@ const AboutPage: React.FC = () => {
             </p>
           </div>
 
-          {/* Missão, Visão, Compromisso */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-24">
             {[
               {
@@ -204,7 +200,6 @@ const AboutPage: React.FC = () => {
             ))}
           </div>
 
-          {/* Valores */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {[
               {
@@ -251,7 +246,6 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">

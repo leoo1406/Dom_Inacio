@@ -29,7 +29,6 @@ const Header: React.FC = () => {
     }
   }, [])
 
-  // Close menu when clicking a link or changing location
   useEffect(() => {
     setIsOpen(false)
   }, [location])
@@ -52,12 +51,9 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img src="/img/home/logo.png" alt="Grãos Dom Inácio" className="h-11 scale-150" />
           </Link>
-
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6 text-lg">
             {navLinks.map((link) => (
               <Link
@@ -76,7 +72,6 @@ const Header: React.FC = () => {
             ))}
           </nav>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button onClick={toggleMenu} className="text-secondary-900 hover:text-primary-500 focus:outline-none">
               {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -85,7 +80,6 @@ const Header: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
       <div
         className={`md:hidden transition-all duration-300 overflow-hidden ${
           isOpen ? "max-h-screen bg-white" : "max-h-0"

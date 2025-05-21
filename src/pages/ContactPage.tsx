@@ -15,7 +15,6 @@ const ContactPage: React.FC = () => {
 
   return (
     <div className="pt-16">
-      {/* Hero section */}
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img
@@ -41,7 +40,6 @@ const ContactPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Contact details and map */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -119,7 +117,6 @@ const ContactPage: React.FC = () => {
                     </p>
                     <p className="text-gray-700">
                       <a
-                        href="mailto:comercial@graosdiomincio.com.br"
                         className="hover:text-primary-600 transition-colors"
                       >
                         comercial@graosdiomincio.com.br
@@ -173,7 +170,6 @@ const ContactPage: React.FC = () => {
               transition={{ duration: 0.6 }}
               className="relative h-[400px] lg:h-auto rounded-lg overflow-hidden"
             >
-              {/* This would be replaced with an actual interactive map in a real implementation */}
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.727884763336!2d-51.232699524616646!3d-30.04575638189347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197926e5590931%3A0x3064c751bb44968e!2sDom%20In%C3%A1cio%20Com%C3%A9rcio%20de%20Gr%C3%A3os%20LTDA!5e0!3m2!1spt-BR!2sbr!4v1715103400475!5m2!1spt-BR!2sbr"
                 width="100%"
@@ -189,61 +185,6 @@ const ContactPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Coverage map 
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-secondary-900">Mapa de Atuação</h2>
-            <p className="text-gray-700">
-              Estamos presentes em diversas regiões do país, fornecendo grãos de qualidade para todo o Brasil
-            </p>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="relative aspect-[16/9] bg-secondary-100">
-              <img 
-                src="https://images.pexels.com/photos/10444809/pexels-photo-10444809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="Mapa de cobertura"
-                className="w-full h-full object-cover opacity-30"
-              />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-secondary-900 mb-4">Brasil</h3>
-                  <p className="text-lg text-secondary-800">
-                    Clique para ver detalhes por região
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-                <div className="text-center">
-                  <div className="h-4 w-4 bg-primary-300 rounded-full mx-auto mb-2"></div>
-                  <p className="text-sm font-medium">Sul</p>
-                </div>
-                <div className="text-center">
-                  <div className="h-4 w-4 bg-primary-400 rounded-full mx-auto mb-2"></div>
-                  <p className="text-sm font-medium">Sudeste</p>
-                </div>
-                <div className="text-center">
-                  <div className="h-4 w-4 bg-primary-500 rounded-full mx-auto mb-2"></div>
-                  <p className="text-sm font-medium">Centro-Oeste</p>
-                </div>
-                <div className="text-center">
-                  <div className="h-4 w-4 bg-primary-600 rounded-full mx-auto mb-2"></div>
-                  <p className="text-sm font-medium">Nordeste</p>
-                </div>
-                <div className="text-center">
-                  <div className="h-4 w-4 bg-primary-700 rounded-full mx-auto mb-2"></div>
-                  <p className="text-sm font-medium">Norte</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>*/}
-
-      {/* Contact CTA */}
       <section className="py-16 bg-primary-500 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
@@ -268,6 +209,7 @@ const ContactPage: React.FC = () => {
                 Falar via WhatsApp
               </a>
               <a
+                href="/atendimento"
                 className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-md text-lg font-medium hover:bg-white/10 transition-colors duration-300"
               >
                 <Mail className="mr-2" size={20} />

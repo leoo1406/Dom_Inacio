@@ -10,7 +10,6 @@ const PartnersPage: React.FC = () => {
     document.title = "Parceiros | Grãos Dom Inácio"
   }, [])
 
-  // In a real implementation, these would be actual partner logos and details
   const partners = [
     {
       id: 1,
@@ -119,7 +118,6 @@ const PartnersPage: React.FC = () => {
 
   return (
     <div className="pt-16">
-      {/* Hero section */}
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img
@@ -143,7 +141,6 @@ const PartnersPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Partners Gallery */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
@@ -175,7 +172,6 @@ const PartnersPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Partnership Types */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
@@ -246,7 +242,6 @@ const PartnersPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
@@ -283,7 +278,6 @@ const PartnersPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Become a Partner */}
       <section className="py-16 bg-primary-500 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

@@ -9,7 +9,6 @@ const Footer: React.FC = () => {
     <footer className="bg-secondary-900 text-white pt-12 pb-6">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {/* Column 1: Company Info */}
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
               <img src="/img/home/logo.png" alt="Grãos Dom Inácio" className="h-12" />
@@ -29,7 +28,6 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Column 2: Links */}
           <div>
             <h3 className="font-bold text-xl mb-4 text-white">Links Rápidos</h3>
             <ul className="space-y-2">
@@ -71,7 +69,6 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Column 3: Contact */}
           <div>
             <h3 className="font-bold text-xl mb-4 text-white">Contato</h3>
             <ul className="space-y-3">
@@ -105,7 +102,6 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom bar with copyright */}
         <div className="pt-6 mt-6 border-t border-secondary-700 text-center sm:flex sm:justify-between sm:text-left">
           <p className="text-gray-400">
             &copy; {currentYear} Grãos Dom Inácio por <span className="text-primary-500">Leonardo Baronio.</span> Todos

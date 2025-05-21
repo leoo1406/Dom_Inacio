@@ -5,7 +5,6 @@ import { ArrowRight } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
-      {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center z-0" 
         style={{ 
@@ -16,7 +15,6 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-secondary-900/70 to-secondary-900/50 z-10"></div>
       </div>
 
-      {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
         <motion.div 
           className="max-w-4xl mx-auto text-center text-white"
@@ -65,7 +63,6 @@ const Hero: React.FC = () => {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
         <motion.div 
           animate={{ y: [0, 10, 0] }}

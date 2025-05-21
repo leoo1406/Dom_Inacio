@@ -77,7 +77,6 @@ const ServicesPage: React.FC = () => {
 
   return (
     <div className="pt-16">
-      {/* Hero section */}
       <div className="relative bg-secondary-900 py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
@@ -99,7 +98,6 @@ const ServicesPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Services section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
@@ -156,7 +154,6 @@ const ServicesPage: React.FC = () => {
         </div>
       </section>
 
-      {/* CTA section */}
       <section className="py-20 bg-primary-500 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div

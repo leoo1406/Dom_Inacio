@@ -12,7 +12,6 @@ const regions = [
   { id: "tocantins", name: "Tocantins", color: "#ffffaf", isPrimary: false }
 ];
 
-// paths separados (vocÃª pode ir adicionando mais aqui)
 const paths = [
   {
     id: "RS",
@@ -164,7 +163,7 @@ const BrazilMap: React.FC<{ hoveredRegion: string | null }> = ({
       const length = path.getTotalLength();
       path.style.strokeDasharray = `${length}`;
       path.style.strokeDashoffset = `${length}`;
-      path.getBoundingClientRect(); // forÃ§a reflow
+      path.getBoundingClientRect();
       path.style.transition = "stroke-dashoffset 5s ease";
       path.style.strokeDashoffset = "0";
     }
@@ -205,7 +204,7 @@ const BrazilMap: React.FC<{ hoveredRegion: string | null }> = ({
                 transition={{
                   duration: 1.5,
                   ease: "easeInOut",
-                  delay: index * 0.4, // anima um de cada vez
+                  delay: index * 0.4,
                 }}
               />
             ))}

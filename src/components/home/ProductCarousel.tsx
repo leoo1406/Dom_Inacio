@@ -100,7 +100,6 @@ const ProductCarousel: React.FC = () => {
             ))}
           </div>
 
-          {/* Navigation arrows */}
           <button
             className="absolute top-1/2 left-4 -translate-y-1/2 z-20 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white p-2 rounded-full transition-colors duration-300"
             onClick={prevSlide}
@@ -114,7 +113,6 @@ const ProductCarousel: React.FC = () => {
             <ChevronRight size={24} />
           </button>
 
-          {/* Dots indicator */}
           <div className="flex justify-center space-x-2 mt-4">
             {products.map((_, index) => (
               <button
